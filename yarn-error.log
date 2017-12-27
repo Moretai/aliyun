@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/txx/.nvm/versions/node/v8.9.0/bin/node /Users/txx/.yarn/bin/yarn.js add express ejs aliyun-sdk
+
+PATH: 
+  /Users/txx/.yarn/bin:/Users/txx/.nvm/versions/node/v8.9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/txx/Library/Android/sdk/platform-tools:/Users/txx/gradle-4.0.2/bin:/Users/txx/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "aliyun",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: ETIMEDOUT
+      at Timeout._onTimeout (/Users/txx/.yarn/lib/cli.js:123749:19)
+      at ontimeout (timers.js:475:11)
+      at tryOnTimeout (timers.js:310:5)
+      at Timer.listOnTimeout (timers.js:270:5)
